@@ -20,7 +20,7 @@ jobs:
 
       - name: Show GitHub context
         run: echo "Repository - ${{ github.repository }}"
-        
+
       - name: Run bash script
         run: |
           chmod +x ./hello.sh
